@@ -19,27 +19,6 @@ Track your robot’s movement in real time using ArUco markers and an Intel Real
 - Intel RealSense camera (D435 or similar)
 - OpenCV with ArUco support
 
-# 🤖 Robot Movement Monitor
-
-Track your robot’s movement in real time using ArUco markers and an Intel RealSense camera. The system classifies motion as **MOVING**, **STATIONARY**, or **MARKER LOST**, and overlays velocity, FPS, marker ID, and trail directly on the video feed.
-
----
-
-## ✨ Features
-- 🧭 Real‑time ArUco marker detection and tracking
-- 🟢 State classification: MOVING / STATIONARY / MARKER LOST
-- 📈 Velocity estimation with smoothing
-- 🖼️ On‑screen overlay with FPS, ID, coordinates, trail
-- 🧾 Optional logging to file
-- 🧩 Built‑in marker generator (single or sheet)
-
----
-
-## 🧰 Requirements
-- Python 3.8+
-- Intel RealSense camera (D435 or similar)
-- OpenCV with ArUco support
-
 Install dependencies:
 
 ```bash

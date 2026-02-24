@@ -71,7 +71,7 @@ def generate_multiple_markers(count: int = 5, size: int = 200) -> None:
     sheet_height = rows * cell_size
     
     # Create white sheet
-    sheet = 255 * cv2.numpy.ones((sheet_height, sheet_width), dtype=cv2.numpy.uint8)
+    sheet = 255 * np.ones((sheet_height, sheet_width), dtype=np.uint8)
     
     for i in range(count):
         row = i // cols
